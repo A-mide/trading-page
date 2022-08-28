@@ -33,6 +33,7 @@ body{
 
     
 }
+
 .hearth-logo {
     color: red;
     font-size: 30px;
@@ -217,4 +218,20 @@ input[type=checkbox]{
     color: #293462;
     text-decoration: none;
 
+}
+@media only screen and (max-width: 600px) {
+    
+        nav{
+        display: flex;
+            flex-direction: column;
+        
+            margin: 60px;
+            font-size: 50px;
+            text-align: left;
+            float: left;
+
+        }
+
+    
+    
 }
